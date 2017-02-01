@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ninja_to_Cat</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      //  alert('Howdy, you are now working with jQuery!');
+      // $('click').click(function(){
+      //   alert();
+      // });
+      // $("#cat0").click(function(){
+      //   $(this).hide();
+         //$("#ninjas").show();
+      //});
+      // $('body').on('click', '.imgDiv0', function(){
+        // $(this).children('.imgNja0').html()
+      // });
+
+        $(".imgDiv0").click(function(){
+          $(this).html('<img id ="nja0" src= "ninja0.png" alt="ninja">');
+        });
+        $(".imgDiv1").click(function(){
+          $(this).html('<img id="nja1" src= "ninja1.png" alt="ninja">');
+        });
+        $(".imgDiv2").click(function(){
+          $(this).html(' <img id="nja2" src= "ninja2.png" alt="ninja">');
+        });
+        $(".imgDiv3").click(function(){
+          $(this).html('<img id="nja3" src= "ninja3.png" alt="ninja">');
+        });
+        $(".imgDiv4").click(function(){
+          $(this).html('<img id="nja4" src= "ninja4.png" alt="ninja">');
+        });
+    });
+</script>
+  </head>
+
+  <body>
+    <div id="container">
+      <div id = "cats">
+        <div class ="imgDiv0">
+          <img id="cat0" src = "cat0.png" alt="cat">
+        </div>
+        <div class="imgDiv1">
+          <img id="cat1" src = "cat1.png" alt="cat">
+        </div>
+        <div class="imgDiv2">
+          <img id="cat2" src = "cat2.png" alt="cat">
+        </div>
+        <div class="imgDiv3">
+          <img id="cat3" src = "cat3.png" alt="cat">
+        </div>
+        <div class="imgDiv4">
+        <img id="cat4" src = "cat4.png" alt="cat">
+        </div>
+    </div>
+    <!-- <div id = "ninjas">
+      <div class="imgNja0">
+        <img id ="nja0" src= "ninja0.png" alt="ninja">
+      </div>
+      <div class="imgNja1">
+        <img id="nja1" src= "ninja1.png" alt="ninja">
+      </div>
+      <div class="imgNja2">
+        <img id="nja2" src= "ninja2.png" alt="ninja">
+      </div>
+      <div class="imgNja3">
+        <img id="nja3" src= "ninja3.png" alt="ninja">
+      </div>
+      <div class="imgNja4">
+        <img id="nja4" src= "ninja4.png" alt="ninja">
+      </div>
+    </div> -->
+  </div>
+  </body>
+</html>
