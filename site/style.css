@@ -1,21 +1,21 @@
 
-.imgDiv0{
+#img.cat0{
   height:50px;
   width: 200px;
 }
-.imgDiv1{
+#img.cat1{
   height:50px;
   width: 200px;
 }
-.imgDiv2{
+#img.cat2{
   height:50px;
   width: 200px;
 }
-.imgDiv3{
+#img.cat3{
   height:50px;
   width: 200px;
 }
-.imgDiv4{
+#img.cat4{
   height:50px;
   width: 200px;
 }
@@ -40,14 +40,4 @@
 .imgNja4{
   height:50px;
   width: 200px;
-}
-
-
-
-
-
-#cats{
-  height: 400px;
-  width: 200px;
-  display: block;
 }
